@@ -2,6 +2,7 @@
     --white-color: #fff;
     --black-color: #000;
     --text-color: #333;
+    --promary-color: rgb(249, 75, 47);
 }
 
 * {
@@ -40,3 +41,4 @@ html {
         opacity: 1;
     }
 }
+
