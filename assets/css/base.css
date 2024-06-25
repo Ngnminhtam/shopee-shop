@@ -8,6 +8,8 @@
     --header-height: 120px;
     --navbar-height: 34px;
     --header-with-search-height: calc(var(--header-height) - var(--navbar-height));
+    --box-shadow: 0 1px 5px #b5b5b5;
+    --border-radius: 3px;
 }
 
 * {
@@ -93,6 +95,10 @@ html {
     justify-content: center;
     align-items: center;
     line-height: 1.5rem;
+}
+
+.btn:hover{
+    opacity: 0.9;
 }
 
 .btn.btn--normal:hover {
