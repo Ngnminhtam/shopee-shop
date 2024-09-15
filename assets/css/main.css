@@ -570,11 +570,6 @@ header__navbar-icon-link {
     z-index: 1;
 }
 
-.header__cart :hover .header__cart-list {
-    display: block;
-}
-
-
 .header__cart-list::before {
     content: "";
     position: absolute;

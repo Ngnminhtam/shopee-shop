@@ -155,9 +155,12 @@
                 </nav>
 
                 <div class="header-with-search">
-                    <label for="mobile-search-checkbox" class="header__mobile-search">
+                    <label for="mobile-search-checkbox">
                         <i class="fa-solid fa-magnifying-glass header__mobile-search-icon"></i>
                     </label>
+
+                    <input type="checkbox" hidden id="mobile-search-checkbox" class="header__search-checkbox">
+
 
                     <div class="header__logo">
                         <a href="" class="header__logo-link">
@@ -170,8 +173,6 @@
                             </svg>
                         </a>
                     </div>
-
-                    <input type="checkbox" hidden id="mobile-search-checkbox" class="header__search-checkbox">
 
                     <div class="header__search">
                         <div class="header__search-input-wrap">
@@ -207,7 +208,12 @@
                     <!-- Cart layout -->
                     <div class="header__cart">
                         <div class="header__cart-wrap">
-                            <i class="header__cart-icon fa-solid fa-cart-shopping"></i>
+                            <label for="mobile-cart-checkbox">
+                                <i class="header__cart-icon fa-solid fa-cart-shopping"></i>
+                            </label>
+
+                            <input type="checkbox" hidden id="mobile-cart-checkbox" class="header__cart-checkbox">
+
                             <span class="header__cart-notice">3</span>
                             <!-- No cart: header__cart-list--no-cart -->
                             <div class="header__cart-list">
@@ -388,7 +394,6 @@
                                 </ul>
                                 <a href="#" class="header__cart-view-cart btn btn--primary">Xem giỏ hàng</a>
                             </div>
-
                         </div>
                     </div>
 

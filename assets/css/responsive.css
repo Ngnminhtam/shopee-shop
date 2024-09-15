@@ -1,3 +1,10 @@
+/* PC */
+@media (min-width:1024px) {
+    .header__cart :hover .header__cart-list {
+        display: block;
+    }
+}
+
 /* Mobile & Tablet */
 @media (max-width:1023px) {
     :root {
@@ -81,6 +88,10 @@
         padding: 0 16px;
     }
 
+    .header__cart-checkbox:checked~.header__cart-list {
+        display: block;
+    }
+
     .app-content {
         padding-top: 8px;
     }
@@ -142,17 +153,17 @@
     .footer__content {
         padding: 0 16px;
     }
-    
-    .footer__heading{
+
+    .footer__heading {
         text-align: center;
     }
 
     .footer__download,
-    .footer-item__link{
+    .footer-item__link {
         justify-content: center;
     }
 
-    .footer__download-apps{
+    .footer__download-apps {
         flex: unset;
         justify-content: space-around;
     }
