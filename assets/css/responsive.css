@@ -82,6 +82,9 @@
         padding: 0 16px;
     }
 
+    .app-content{
+        padding-top: 8px ;
+    }
     
 }
 
@@ -114,7 +117,7 @@
     }
 
     .pagination-item{
-        margin: 0;
+        margin: 4px;
     }
 
     .app-content{
